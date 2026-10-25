@@ -1,0 +1,29 @@
+# CodeMind AI theme and server settings (safe to commit: contains no secrets)
+
+[server]
+# Matches MAX_ZIP_SIZE (50 MB) in src/backend.py, so oversized uploads are rejected early.
+maxUploadSize = 50
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#7C83F7"
+backgroundColor = "#0E1014"
+secondaryBackgroundColor = "#171A21"
+textColor = "#E4E6EC"
+borderColor = "#262A33"
+linkColor = "#9EA4FA"
+baseRadius = "10px"
+font = "sans-serif"
+codeFont = "monospace"
+showWidgetBorder = true
+
+[theme.sidebar]
+backgroundColor = "#121419"
+secondaryBackgroundColor = "#1A1D24"
+borderColor = "#22252D"
